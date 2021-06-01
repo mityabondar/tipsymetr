@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/tipsymetr/static/css/main.f7034e2a.chunk.css",
+    "main.js": "/tipsymetr/static/js/main.f177bec2.chunk.js",
+    "main.js.map": "/tipsymetr/static/js/main.f177bec2.chunk.js.map",
+    "runtime-main.js": "/tipsymetr/static/js/runtime-main.02295411.js",
+    "runtime-main.js.map": "/tipsymetr/static/js/runtime-main.02295411.js.map",
+    "static/js/2.b720ca8a.chunk.js": "/tipsymetr/static/js/2.b720ca8a.chunk.js",
+    "static/js/2.b720ca8a.chunk.js.map": "/tipsymetr/static/js/2.b720ca8a.chunk.js.map",
+    "index.html": "/tipsymetr/index.html",
+    "static/css/main.f7034e2a.chunk.css.map": "/tipsymetr/static/css/main.f7034e2a.chunk.css.map",
+    "static/js/2.b720ca8a.chunk.js.LICENSE.txt": "/tipsymetr/static/js/2.b720ca8a.chunk.js.LICENSE.txt",
+    "static/media/hero-image.31e18257.svg": "/tipsymetr/static/media/hero-image.31e18257.svg",
+    "static/media/image-about.437eddc8.svg": "/tipsymetr/static/media/image-about.437eddc8.svg",
+    "static/media/image.5c387d43.jpg": "/tipsymetr/static/media/image.5c387d43.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02295411.js",
+    "static/js/2.b720ca8a.chunk.js",
+    "static/css/main.f7034e2a.chunk.css",
+    "static/js/main.f177bec2.chunk.js"
+  ]
+}
