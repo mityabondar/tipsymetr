@@ -1,0 +1,117 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+:root {
+  --c-base: #FF5300;
+  --c-text: #373737;
+  --c-description: #7B7B7B;
+
+  --bg-base: #FFF7F4;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  color: var(--c-text);
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.global-wrapper {
+  position: relative;
+}
+
+.container {
+  max-width: 80rem;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 2rem 0;
+  color: var(--c-base);
+}
+
+.title--decoration {
+  display: flex;
+  align-items: center;
+  font-size: small;
+  color: var(--c-base);
+  font-weight: 500;
+}
+
+.title--decoration::after {
+  content: '';
+  width: 3rem;
+  height: 1px;
+  margin-left: 1rem;
+  background-color: var(--c-base);
+}
+
+.bg--base {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: var(--bg-base);
+}
+
+.button {
+  font-size: large;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button--empty {
+  background: none;
+  border-radius: 3px;
+  border: 2px solid black;
+  padding: .5rem 1rem;
+}
+
+.button--link {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.button--base {
+  padding: .75rem 2.5rem;
+  font-size: large;
+  border: none;
+  background-color: var(--c-base);
+  border-radius: 3px;
+  color: var(--bg-base);
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link--button {
+  padding: .75rem 2.5rem;
+  background-color: var(--c-base);
+  border-radius: 3px;
+  color: var(--bg-base);
+  font-size: large;
+  font-weight: 500;
+}
