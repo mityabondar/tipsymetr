@@ -55,3 +55,21 @@
     font-weight: 900;
 }
 
+@media (max-width: 50rem) {
+    .about__row {
+        flex-direction: column-reverse;
+        margin-top: 1rem;
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+    .about__col {
+        flex-basis: auto;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .about__title {
+        font-size: 1.5rem;
+    }
+}

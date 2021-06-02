@@ -11,7 +11,7 @@ function About() {
                         <img src={image} className="img about__image" alt="" />
                     </div>
                     <div className="about__col">
-                        <div className="title--decoration">About Service</div>
+                        <div className="title title--decoration">About Service</div>
                         <h2 className="about__title">
                             Tipsymetr is a little comic tips calculator for a large & boozy company!
                         </h2>

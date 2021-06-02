@@ -27,4 +27,37 @@
     font-size: large;
     font-family: inherit;
     font-weight: 500;
+    transition: box-shadow .3s;
+}
+
+.calc__input:focus,
+.calc__input:active {
+    transition-duration: 0s;
+    box-shadow: 0 0 2px 2px var(--c-base);
+    outline: none;
+}
+
+.calc__total {
+    margin-top: 1rem;
+    border: 2px solid var(--c-base);
+    padding: 1rem;
+    background-color: var(--bg-base);
+    border-radius: 3px;
+    text-align: center;
+}
+
+.total__summ {
+    margin: .5rem 0;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+@media (max-width: 50rem) {
+    .calc__form {
+        padding: 1.5rem 1rem;
+    }
+
+    .calc__label {
+        font-size: medium;
+    }
 }

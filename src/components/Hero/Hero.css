@@ -36,3 +36,32 @@
     color: var(--c-description);
     margin: 2rem 0;
 }
+
+@media (max-width: 50rem) {
+    .hero__container {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+
+    .hero__row {
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+    .hero__col {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .hero__title {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.2;
+    }
+
+    .hero__texts {
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+}

@@ -47,7 +47,15 @@
 }
 
 @media (max-width: 50rem) {
-    .header__nav {
+    .header__container {
+        padding: 1rem;
+    }
+
+    .header__list {
         display: none;
+    }
+
+    .header .button--empty {
+        font-size: small;
     }
 }

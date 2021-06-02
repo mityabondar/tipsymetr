@@ -32,3 +32,14 @@
     border-radius: 5px;
     object-fit: cover;
 }
+
+@media (max-width: 50rem) {
+    .article {
+        padding: 1rem;
+    }
+
+    .articles {
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    }
+}

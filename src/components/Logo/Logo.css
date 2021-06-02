@@ -9,3 +9,9 @@
 .logo > span {
     color: var(--c-base);
 }
+
+@media (max-width: 50rem) {
+    .logo {
+        font-size: large;
+    }
+}

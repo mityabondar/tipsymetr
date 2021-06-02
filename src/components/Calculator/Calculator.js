@@ -19,6 +19,12 @@ function Calculator() {
                         <div className="calc__label">Tip (%)</div>
                         <input type="number" name="summ" id="summ" className="calc__input" min="5" max="20" step="5" placeholder="10" />
                     </label>
+                    <div className="calc__total total">
+                        <div className="total__text">Total summ per person:</div>
+                        <div className="total__summ">
+                            <span>0</span> $
+                        </div>
+                    </div>
                 </form>
 
             </div>

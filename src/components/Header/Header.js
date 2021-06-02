@@ -19,16 +19,10 @@ function Header() {
                         <button type="button" className="button button--link">About Service</button>
                     </li>
                     <li className="header__li">
-                        <button type="button" className="button button--link">Single Bill</button>
-                    </li>
-                    <li className="header__li">
-                        <button type="button" className="button button--link">Multiple bills</button>
-                    </li>
-                    <li className="header__li">
                         <button type="button" className="button button--link">Blog</button>
                     </li>
                 </ul>
-                <button type="button" className="button button--empty">Hold my beer, son!</button>
+                <button type="button" className="button button--empty">Let's Calc!</button>
             </nav>
         )
     }

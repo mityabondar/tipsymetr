@@ -74,6 +74,7 @@ body {
   font-size: large;
   font-family: inherit;
   font-weight: 500;
+  transition: background-color .3s, box-shadow .3s, color .3s;
 }
 
 .button:hover {
@@ -87,10 +88,24 @@ body {
   padding: .5rem 1rem;
 }
 
+.button--empty:hover {
+  background-color: #ffe3d6;
+}
+
+.button--empty:focus,
+.button--empty:active {
+  box-shadow: 0 0 2px 2px var(--c-base);
+  outline: none;
+}
+
 .button--link {
   padding: 0;
   border: none;
   background: none;
+}
+
+.button--link:hover {
+  color: var(--c-base);
 }
 
 .button--base {
@@ -102,9 +117,18 @@ body {
   color: var(--bg-base);
 }
 
+.button--base:hover {
+  background-color: #c03f00;
+}
+
 .link {
   display: inline-block;
   text-decoration: none;
+  transition: background-color .3s, box-shadow .3s, color .3s;
+}
+
+.linl:hover {
+  transition-duration: 0s;
 }
 
 .link--button {
@@ -114,4 +138,28 @@ body {
   color: var(--bg-base);
   font-size: large;
   font-weight: 500;
+}
+
+.link--button:hover {
+  background-color: #c03f00;
+}
+
+@media (max-width: 50rem) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .title.title--decoration {
+    font-size: small;
+  }
+
+  .link--button {
+    padding: .75rem 1.5rem;
+    font-size: medium;
+  }
 }

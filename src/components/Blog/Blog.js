@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import imageArticle from './images/image.jpg';
 
@@ -7,9 +6,10 @@ function Blog() {
     return (
         <section className="blog bg--base">
             <div className="container blog__container">
-                <h2 className="title title--decoration">
+                <h3 className="title title--decoration">
                     Mini Blog
-                </h2>
+                </h3>
+                <h2 className="blog__title">Cool articles with lifehacks!</h2>
                 <ul className="articles">
                     <li className="articles__item">
                         <article className="article">

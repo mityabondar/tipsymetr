@@ -20,7 +20,7 @@ function Hero() {
                         <p className="hero__description">
                             {texts.description}
                         </p>
-                        <button type="button" className="button button--base">Let's Calc</button>
+                        <button type="button" className="button button--base">Hold my beer, son!</button>
                     </div>
                     <div className="hero__col hero__image">
                         <img src={heroImage} className="img" alt="" />
