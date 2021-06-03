@@ -18,17 +18,9 @@ class Calculator extends Component {
         this.updateTotalSumm = this.updateTotalSumm.bind(this);
     }
 
-    cutZeros(value, count) {
-        return Number.isInteger(value) ? value : value.toFixed(count);
-    }
-
-    fromStringToInt(value) {
-        return parseInt(value, 10);
-    }
-
     updateTotalSumm() {
         const summValue = this.fromStringToInt(this.inputSumm.current.value);
-        const peopleValue = this.fromStringToInt(this.inputPeople.current.value);
+        const peopleValue = this.fromStringToInt(this.inputPeople.current.value) || 1;
         const tipValue = this.fromStringToInt(this.inputTip.current.value) / 100;
 
         let totalTip = summValue * tipValue;
@@ -46,6 +38,19 @@ class Calculator extends Component {
                 totalSummPerPerson: summPerPerson
             }
         });
+    }
+
+    cutZeros(value, count) {
+        return Number.isInteger(value) ? value : value.toFixed(count);
+    }
+
+    fromStringToInt(value) {
+        const outputValue = value !== '' ? parseInt(value, 10) : 0;
+        return outputValue;
+    }
+
+    componentDidMount() {
+        this.updateTotalSumm()
     }
 
     render() {
